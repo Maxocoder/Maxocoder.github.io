@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <style type="text/css">
+        @import url("style.css");
+    </style>
+
+    <script>
+        function my_f()
+        {
+            var temp = document.getElementById("c").value;
+            for(var i = 1; i<= 5;i++)
+            {
+               if (temp < 3)
+                    {
+                        alert("Маловато, давай еще, не жмись.");
+                    }
+                if (temp > 3 & temp < 7)
+                    {
+                        alert("Нууу...");
+                    }
+                if (i = 2) {
+                    alert("Ты не хоббит чтоль, мне бы еще " + i); }
+                if (i = 4) {
+                    alert("Нуу, последний и усё.."); }
+                if (i = 5) {
+                    alert("Эх, что-то пюрешки захотелось ^_^"); }
+                alert("Добро пожаловать в Шир !");
+            }
+        }
+    </script>
+
+    <title>Welcome to the Middle-earth</title>
+
+</head>
+
+<body class="bd" background="https://www.digiseller.ru/preview/148971/p1_00628015054917.jpg">
+<h1 align="middle"><big>Вы вошли в просторы Средиземья</big></h1>
+<hr>
+    <div class = "Race">
+        <div  class = "Hobbits">
+            <p align="middle">
+                <a class = "hob" href = "Hobbits.html" target="_blank">
+                    <em>Всё о хоббитах</em>
+                </a>
+        </p>
+        </div>
+
+
+        <p align= "middle">
+            <a  class = "peop" target="_blank" href = "Peoples.html">
+                <em>Что из себя представляют Люди Средиземья</em>
+            </a>
+        </p>
+    </div>
+
+    <div class = "Dwarfs">
+        <p class = "dw" align="middle" >
+            <em>Посмотреть, как выглядят гномы женского пола <strong>без смс и регистрации</strong></em>
+            <a target="_blank" href="Dwarf.html">
+            <img  width="100" height="80" src="https://yt3.ggpht.com/a-/AJLlDp38uVNPahUFYlN9h51mCEPoG4kRaTurddAIQA=s900-mo-c-c0xffffffff-rj-k-no">
+            </a>
+        </p>
+    </div>
+    <div >
+        <p class = "rabbits" align="bottom">
+            <form name="forma">
+                <input id = "c" name = "col" align="right" size="35px"  placeholder="Сколько пирожков дадите хоббиту ?" type="text">
+                <input align="right" value = "Count pirojok for hobbits" type="button" onclick="my_f()">
+            </form>
+
+        </p>
+    </div>
+
+    <div class = "Elf">
+        <p>
+            Это самый интересный мир. Ведь тут есть куча орков, которых можно рубить во все стороны.
+        </p>
+    </div>
+<hr>
+<p class = "qq">
+    куку
+</p>
+    <div class = "game">
+        <p align="right">
+            <big>Хочешь сыграть? Тогда тебе сюда..</big>
+            <a class = "game" href="game.html" target="_blank">
+            <img width="100" height="80" scr = "https://avatars.mds.yandex.net/get-marketpic/364755/market_pUjeNym9t4K1ifPgus7Xsw/orig">
+            </a>
+        </p>
+    </div>
+</body>
+
+
+
+</html>
